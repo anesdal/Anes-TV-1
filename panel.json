@@ -1,12 +1,11 @@
 {
   "app": {
     "name": "Anes TV",
-    "version": "1.0",
-    "theme": "dark"
+    "version": "1.0"
   },
 
   "sources": {
-    "m3u": "https://example.com/list.m3u",
+    "m3u": "https://example.com/live.m3u",
     "xtream": {
       "host": "http://example.com:8080",
       "username": "user",
@@ -20,13 +19,22 @@
       "name": "BeIN Sports 1",
       "logo": "https://i.imgur.com/1.png",
       "group": "رياضة",
-      "url": "https://example.com/live/1.m3u8"
+      "url": "https://example.com/live1.m3u8"
+    }
+  ],
+
+  "movies": [
+    {
+      "name": "Avengers Endgame",
+      "poster": "https://i.imgur.com/movie1.jpg",
+      "category": "أكشن",
+      "url": "https://example.com/movie1.m3u8"
     },
     {
-      "name": "SSC 1",
-      "logo": "https://i.imgur.com/2.png",
-      "group": "رياضة",
-      "url": "https://example.com/live/2.m3u8"
+      "name": "Joker",
+      "poster": "https://i.imgur.com/movie2.jpg",
+      "category": "دراما",
+      "url": "https://example.com/movie2.m3u8"
     }
   ]
 }
