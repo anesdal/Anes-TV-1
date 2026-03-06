@@ -7,9 +7,9 @@
   "sources": {
     "m3u": "https://example.com/live.m3u",
     "xtream": {
-      "host": "http://example.com:8080",
-      "username": "user",
-      "password": "pass",
+      "host": "http://ottpro.iptvpro2.com:8789",
+      "username": "docfall",
+      "password": "1921",
       "type": "m3u_plus"
     }
   },
